@@ -13,8 +13,6 @@
 # Find the difference between the sum of the squares of the first one hundred
 # natural numbers and the square of the sum.
 
-n = 100
-
 def sumSquareDifference(num):
   sum_sqr = 0
   sqr_sum = 0
@@ -24,4 +22,5 @@ def sumSquareDifference(num):
   sqr_sum = pow(sqr_sum,2)
   return sqr_sum-sum_sqr
 
-print sumSquareDifference(n)
+n = 100
+print 'Result for:',n,'is',sumSquareDifference(n)
